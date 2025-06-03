@@ -1,6 +1,6 @@
 ## Simulations for the Bragg grating, in Lumerical FDTD Solutions (3D Simulation);
 # script file: Bragg_FDTD.lsf
-#Create and simulate a basic Bragg grating
+#Create and simulate a basic Bragg grating which are being studied by the B.Tech ECE students.
 #Copyright 2014 Lumerical Solutions
 ###############################
 
