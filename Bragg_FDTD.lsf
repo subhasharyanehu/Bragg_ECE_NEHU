@@ -8,4 +8,14 @@ DESIGN PARAMETERS
 ###############################
 thick_Si = 0.22e-6;
 thick_BOX = 2e-6;
-Width_ridge = 0.56e-6; # Waveguide Width
+Width_ridge = 0.56e-6; 		# Waveguide Width
+##editing from here.....................
+Delta_W = 50e-9; 		# Corrugation width
+L_pd = 324e-9; 			# Grating period
+N_gt = 280; 			# Number of grating periods
+L_gt = N_gt*L_pd;		# Grating length
+W_ox = 3e-6; L_ex = 5e-6; 	# simulation size margins
+L_total = L_gt+2*L_ex;
+material_Si = ’Si (Silicon) - Dispersive & Lossless’;
+material_BOX = ’SiO2 (Glass) - Const’;
+# Constant index materials lead to more stable simulations 
