@@ -27,3 +27,4 @@ materials;
 # Oxide Substrate 
 addrect;
 set('x min,-L_ex); set('x max',L-gt+L_ex)
+set('y', 0e-6); set('y span', W_ox);
