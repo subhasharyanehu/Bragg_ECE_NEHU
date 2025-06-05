@@ -19,3 +19,11 @@ L_total = L_gt+2*L_ex;
 material_Si = ’Si (Silicon) - Dispersive & Lossless’;
 material_BOX = ’SiO2 (Glass) - Const’;
 # Constant index materials lead to more stable simulations 
+#DRAW
+############
+newproject; switchlayout;
+materials;
+
+# Oxide Substrate 
+addrect;
+set('x min,-L_ex); set('x max',L-gt+L_ex)
