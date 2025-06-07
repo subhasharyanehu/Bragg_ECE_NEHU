@@ -38,7 +38,7 @@ set (’y’, 0); set (’y span’ , width_ridge);
 set ( ’z’, 0); set(’z span’, thick_Si);
 set (’material’, material_Si);
 set (’name’, ’input_wg’);
-# Bragg Grating
+# Bragg Gratings
 addrect;
 set (’x min’, 0); set (’xmax’,L_pd/2);
 set (’y’,0); set (’y span’, width_ridge+Delta_W);
@@ -68,3 +68,8 @@ set (’y’, 0); set (’y span’ , width_ridge);
 set (’z’ , 0); set (’z span’, thick_Si);
 set (’material’, material_Si);
 set (’name’,’output_wg’);
+#SIMULATION SETUP
+############################3
+lambda_min = 1.5e-6;
+lambda_max = 1.6e-6;
+
